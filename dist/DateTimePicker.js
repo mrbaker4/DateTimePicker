@@ -1240,8 +1240,6 @@
 			var $oElem = $(dtPickerObj.dataObject.oInputElement);
 			if(dtPickerObj._compare($oElem.prop("tagName"), "INPUT"))
 				$oElem.val(sElemValue);
-			else
-				$oElem.html(sElemValue);
 
 			$oElem.change();
 
